@@ -130,7 +130,7 @@ async def gen_thumb(videoid, user_id):
             image4.text((670, 350), text=title1[1], fill="white", stroke_width=1, stroke_fill="white", font = font3, align ="left") 
 
             # description
-              views = f"Views : {views}"
+            views = f"Views : {views}"
             duration = f"Duration : {duration} Mins"
             channel = f"Channel : {channel}"
 
